@@ -95,18 +95,11 @@ No exemplo HelloJavalin, a própria abertura do navegador já realiza uma requis
 
 # Evidência da execução
 
-Adicionar o GIF da execução nesta parte.
-
 Exemplo:
 
 ```md
-![Execução do HelloJavalin](evidencias/hello-execution.gif)
+![Execução do HelloJavalin](execution/hello-execution.gif)
 ```
-
-O GIF pode mostrar:
-- execução do `make hello`
-- abertura da porta `3000`
-- retorno `Hello World` no navegador
 
 ---
 
