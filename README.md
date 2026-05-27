@@ -98,7 +98,7 @@ No exemplo HelloJavalin, a própria abertura do navegador já realiza uma requis
 Exemplo:
 
 ```md
-![Execução do HelloJavalin](execution/hello-execution.gif)
+![Execução do HelloJavalin](Execution/hello-execution.gif)
 ```
 
 ---
@@ -169,7 +169,7 @@ Integer.parseInt()
 System.getenv()
 ```
 
-### @load
+### @load.java
 Recurso utilizado no material da professora para carregar exemplos de código automaticamente.
 
 ---
