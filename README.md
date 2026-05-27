@@ -111,7 +111,6 @@ Exemplo:
 - orientação a objetos
 - lógica de backend
 - rotas HTTP
-- separação de responsabilidade
 
 Alguns desses conceitos eu já conhecia principalmente pelo contato anterior com Python e Django, apesar da estrutura em Java ser mais detalhada.
 
@@ -133,23 +132,6 @@ Função anônima utilizada diretamente no código.
 
 ```java
 ctx -> ctx.result("Hello World")
-```
-
-### localhost
-Servidor local utilizado para testes da aplicação.
-
-### Interface
-Define um contrato que outras classes precisam implementar.
-
-```java
-public interface TeamRecommendationStrategy
-```
-
-### implements
-Indica que uma classe está implementando uma interface.
-
-```java
-implements TeamRecommendationStrategy
 ```
 
 ### @Override
@@ -174,7 +156,7 @@ Recurso utilizado no material da professora para carregar exemplos de código au
 
 # Código da aula passada
 
-Na aula passada, utilizei a estratégia `RequirementGroupingStrategy`.
+Na aula passada, utilizei na minha parte o arquivo `RequirementGroupingStrategy`.
 
 ```java
 public class RequirementGroupingStrategy
@@ -219,7 +201,6 @@ O que eu mais consegui entender durante a atividade foi:
 - como o Javalin sobe um servidor local
 - como uma rota HTTP responde no navegador
 - como o Gradle ajuda na execução do projeto
-- como interfaces e estratégias funcionam em Java
 - como funções lambda podem ser utilizadas em Java
 
 ---
