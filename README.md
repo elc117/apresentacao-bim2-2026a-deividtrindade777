@@ -97,9 +97,7 @@ No exemplo HelloJavalin, a própria abertura do navegador já realiza uma requis
 
 Exemplo:
 
-```md
 ![Execução do HelloJavalin](Execution/hello-execution.gif)
-```
 
 ---
 
