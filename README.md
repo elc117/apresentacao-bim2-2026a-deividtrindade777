@@ -77,25 +77,40 @@ app.get("/", ctx -> ctx.result("Hello World"));
 Nesse trecho:
 
 ```java
+app.get("/")
+```
+
+define a rota principal da aplicação.
+
+O método `app.get` funciona como uma função de alta ordem, recebendo um lambda que será executado quando alguém acessar essa rota.
+
+```java
 ctx -> ctx.result("Hello World")
 ```
 
-é utilizado um lambda do Java, semelhante à ideia de funções anônimas vistas em Haskell.
+Esse lambda recebe o contexto da requisição HTTP (`ctx`) e retorna a resposta `"Hello World"` no navegador.
 
-O `ctx.result()` retorna a resposta da rota HTTP no navegador.
+Também observei que:
+
+```java
+Integer.parseInt()
+System.getenv()
+Javalin.create()
+```
+
+são métodos `static`, chamados diretamente pela classe sem utilizar `new`.
 
 Resultado no navegador:
 
 ```txt
 Hello World
 ```
+
 No exemplo HelloJavalin, a própria abertura do navegador já realiza uma requisição GET para a rota `/`, retornando a mensagem `"Hello World"`.
 
 ---
 
 # Evidência da execução
-
-Exemplo:
 
 ![Execução do HelloJavalin](Execution/hello-execution.gif)
 
